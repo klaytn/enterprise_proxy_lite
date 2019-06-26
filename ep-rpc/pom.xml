@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <artifactId>ep-rpc</artifactId>
+    <version>1.0.0</version>
+    <packaging>jar</packaging>
+
+
+    <parent>
+        <groupId>com.klaytn.enterpriseproxy</groupId>
+        <artifactId>ep-root</artifactId>
+        <version>1.0.0</version>
+    </parent>
+
+
+    <dependencies>
+        <dependency>
+            <groupId>com.klaytn.enterpriseproxy</groupId>
+            <artifactId>ep-common</artifactId>
+            <version>1.0.0</version>
+        </dependency>
+
+        <!--## RPC ##-->
+        <dependency>
+            <groupId>io.github.openfeign</groupId>
+            <artifactId>feign-core</artifactId>
+            <version>10.2.0</version>
+        </dependency>
+        <dependency>
+            <groupId>io.github.openfeign</groupId>
+            <artifactId>feign-okhttp</artifactId>
+            <version>10.2.0</version>
+        </dependency>
+        <dependency>
+            <groupId>io.github.openfeign</groupId>
+            <artifactId>feign-gson</artifactId>
+            <version>10.2.0</version>
+        </dependency>
+        <dependency>
+            <groupId>io.github.openfeign</groupId>
+            <artifactId>feign-slf4j</artifactId>
+            <version>10.2.0</version>
+        </dependency>
+        <dependency>
+            <groupId>io.github.openfeign</groupId>
+            <artifactId>feign-annotation-error-decoder</artifactId>
+            <version>1.1.2</version>
+        </dependency>
+        <!--## RPC ##-->
+    </dependencies>
+</project>
