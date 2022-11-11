@@ -1,3 +1,8 @@
+# Branch name will be changed
+
+We will change the `master` branch to `main` on Nov 1, 2022.
+After the branch policy change, please check your local or forked repository settings.
+
 # Enterprise Proxy Lite
 
 Compact version of Enterprise proxy that uses no DB connection. Please find more details in [Official documentation of EP.](https://docs.klaytn.com/klaytn/enterprise_proxy)
